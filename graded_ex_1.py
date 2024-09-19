@@ -1,3 +1,4 @@
+#Test Version 1.0
 # Products available in the store by category
 products = {
     "IT Products": [
