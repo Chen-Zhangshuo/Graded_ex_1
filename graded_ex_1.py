@@ -31,7 +31,7 @@ products = {
     ]
 }
 
-#Display the product categories
+#Fuction to display the product categories
 def display_sorted_products(products_list,sort_order):
     sorted_products = sorted(products_list, key=lambda x: x[1], reverse=(sort_order == 2))
     return sorted_products
